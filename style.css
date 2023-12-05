@@ -7,16 +7,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Configuração das fonts da página */
 :root {
   font-size: 62.5%;
+
+  --color-base-white: #ffffff;
+  --color-base-gray-100: #f5f5f5;
+  --color-base-gray-300: #8d8d99;
+  --color-base-gray-900: #202024;
+
+  font-family: 'Mulish', sans-serif;
 }
 
 body {
   font-size: 1.6rem;
+  background-color: var(--color-base-white);
+  color: var(--color-base-gray-900);
 }
 
-
-/* Configuração do grid */
+/* Configuração do app */
 #app > *{
   border: 1px solid red;
 }
@@ -32,7 +41,8 @@ body {
   margin: 0 auto;
 }
 
-/* Header & footer ficam fixos e o conteúdo main habilita o scroll */
+/*Deixa o header/footer fixos enqunato a main habilita o scroll*/
 main {
   overflow-y:scroll;
+  background-color: var(--color-base-gray-100);
 }
