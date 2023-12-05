@@ -14,3 +14,7 @@
 body {
   font-size: 1.6rem;
 }
+
+#app {
+  display: grid;
+}
