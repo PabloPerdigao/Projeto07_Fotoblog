@@ -15,7 +15,10 @@
   --color-base-gray-100: #f5f5f5;
   --color-base-gray-300: #8d8d99;
   --color-base-gray-900: #202024;
+  --color-base-gray-500: #3D3D3D;
+}
 
+html,body,input {
   font-family: 'Mulish', sans-serif;
 }
 
@@ -70,6 +73,33 @@ ul li.active {
   color: var(--color-base-gray-900);
 }
 
+/* Configuração do Campo de Pesquisa */
+.input-wrapper label {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 1.6rem;
+
+  border-color: var(--color-base-gray-100);
+  border: 0;
+  border-radius: .6rem;
+  font-size: 1.6rem;
+
+  font-weight: 600;
+  opacity: 0.6;
+}
+
+.input-wrapper input::placeholder {
+  opacity: 0.56;
+  color: var(--color-base-gray-500);
+}
+
+/* Configuração da imagem */
 .avatar {
   width: 4.2rem;
   height: 4.2rem;
@@ -80,6 +110,7 @@ ul li.active {
   border-radius: 50%;
 }
 
+/* Configuração do Rodapé */
 footer p{
   text-align: center;
   padding: 1.6rem;
