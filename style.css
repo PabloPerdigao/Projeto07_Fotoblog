@@ -132,14 +132,33 @@ main h1 {
   overflow: hidden;
 }
 
+/* Configuração do proporção e transição do CSS (imagem) */
+
 .item img {
   width: 100%;
   aspect-ratio: 16/9;
   object-fit: cover;
+
+ /* transition-property: all;
+  transition-duration: 300ms;
+  transition-delay: 0;
+  transition-timing-function: ease-out;*/
+
+  transition: all 200ms ease-out;
 }
-/* Configuração dos Títulos */
+
+/* Configuração do filtro e transição do CSS (imagem) */
+.item img:hover {
+  filter: hue-rotate(5deg) contrast(101%) saturate(150%);
+  transform: scale(1.1) rotate(-1deg);
+}
+
+/* Configuração dos Títulos e imagem */
 .details {
   padding: 2.2rem;
+  background-color: var(--color-base-white);
+  z-index: 1;
+  position: relative;
 }
 
 .details h2 {
