@@ -187,3 +187,40 @@ footer p{
   padding: 1.6rem;
   font-weight: 600;
 }
+
+/*Configuração de animações CSS para o header*/
+header {
+  --startY:-100%;
+  animation: move .2s;
+} 
+
+/*Configuração de animações CSS para o footer*/
+footer {
+  --startY: -100%;
+  animation:  move .2s;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(var(--startY));
+  }
+}
+
+/* Configuração de aparição dos conteúdo(cards)*/
+
+.item {
+  --delay: .2s;
+  animation: appear .4s var(--delay) backwards;
+}
+
+
+@keyframes apper {
+  0% {
+    opacity: 0;
+    transform: scale(0.7);
+  }
+  
+  50% {
+    transform: scale(1.2);
+  }
+}
