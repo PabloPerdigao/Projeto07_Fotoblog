@@ -41,8 +41,8 @@ Este projeto é contém 9 cards,onde cada card possui uma imagem diferente  com 
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1256354844988182987). <br/> <strong>OBS:</strong> É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1256354844988182987?target=_blank). <br/> <strong>OBS:</strong> É necessário ter conta no [Figma](https://figma.com?target=_blank) para acessá-lo.
 
 
 😉 Feito com ♥ by Pablo Perdigão, aluno Explorer da Rocketseat! <br/>
-📲 [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat)
+📲 [Participe da comunidade Rocketseat!](https://discord.gg/rocketseat?target=_blank)
