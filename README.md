@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto 06 - Galaxies" src="/images/preview.jpg" width="100%">
+  <img alt="Projeto 06 - Galaxies" src="/assets/preview.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
