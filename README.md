@@ -23,13 +23,15 @@
   <img alt="Projeto 06 - Galaxies" src="/assets/preview.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🧠 Linguagens, Tecnologias & Ferramentas 🚀
 
 Esse projeto foi desenvolvido com as seguintes tecnologias & ferramentsa:
 
-- HTML e CSS
-- Git e Github
-- Figma
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ## 💻 Projeto
 
@@ -38,6 +40,8 @@ O Projeto 07 - Fotoblog, é uma página na web onde podemos encontrar uma galeri
 É um projeto simples e foi desenvolvido com o intuito de aplicar o conhecimento adquirido na aulas em relação as variáveis do CSS(filtros, transições e animações),alteração de cores com HSl e aplicação da propriedade grid. 
 
 Este projeto é contém 9 cards,onde cada card possui uma imagem diferente  com uma tag abaixo.
+
+[➡️😉Acesse o projeto finalizado online](https://pabloperdigao.github.io/DevLinks/)
 
 ## 🔖 Layout
 
